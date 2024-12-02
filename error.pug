@@ -1,0 +1,16 @@
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Ошибка загрузки файла
+    link(rel="stylesheet" href="error.css")
+  body
+    div.container
+      article.error-message
+        img.error-message__image.hidden(src="img.svg" alt="Илюстрация")
+        h1.error-message__title.hidden Нельзя загружать файлы этого типа
+        p.error-message__text.hidden Файлы этого типа здесь не поддерживаются.
+        button.error-message__button.hidden(type="button") Скачать
+    script(src="animation.js")
+  
+
